@@ -1,0 +1,2368 @@
+fieldset {
+    border: none
+}
+
+.helper, .uberHelper {
+    position: relative;
+    display: inline-block
+}
+
+.accordionIcon + i {
+    padding-left: 10px;
+    top: 50%;
+    position: absolute;
+    margin-top: -9px
+}
+
+i {
+    vertical-align: top
+}
+
+i + .accordionIcon {
+    padding-left: 10px
+}
+
+.noContent:before, .noContent:after {
+    color: transparent !important;
+    text-shadow: none !important;
+    background-color: transparent !important;
+    border-color: transparent !important
+}
+
+#searchInput {
+    width: 100%;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: none;
+    margin-top: 40px;
+    font-size: 13px;
+    padding: 13px 0 13px 10px;
+    outline: 0
+}
+
+.searchButton {
+    position: relative;
+    display: inline-block;
+    margin-top: 1%;
+    outline: 0;
+    border: none;
+    top: -40px;
+    float: right;
+    right: 2px;
+    color: #999;
+    background-color: #FFF
+}
+
+ul[id^=accordion] {
+    padding-left: 0
+}
+
+ul[id^=accordion] > li > ul {
+    padding-left: 0
+}
+
+ul[id^=accordion] > li > ul > li > ul {
+    padding-left: 0
+}
+
+.ctAccordion.skin-sport {
+    list-style: none;
+    -webkit-padding-start: 0 !important
+}
+
+.ctAccordion.skin-sport .accordion:after {
+    content: attr(data-content);
+    padding: 1px 11px 1px 10px;
+    font-size: 12px;
+    line-height: 13px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -webkit-border-top-left-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    -moz-border-radius-bottomright: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    -moz-border-radius-topleft: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    top: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-top: -9px;
+    right: 30px
+}
+
+.ctAccordion.skin-sport ul {
+    overflow: hidden;
+    line-height: 0;
+    -webkit-padding-start: 0 !important;
+    margin: 0 !important
+}
+
+.ctAccordion.skin-sport a, .ctAccordion.skin-sport span {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 13px;
+    font-size: 13px;
+    min-width: 50px;
+    display: block;
+    position: relative
+}
+
+.ctAccordion.skin-sport a:hover {
+    -webkit-transition: all .7s ease-out;
+    -moz-transition: all .7s ease-out;
+    -o-transition: all .7s ease-out;
+    transition: all .7s ease-out;
+    color: #fe0
+}
+
+.ctAccordion.skin-sport a:before {
+    top: 50%;
+    position: absolute;
+    right: 10px;
+    margin-top: -6px;
+    font-family: FontAwesome;
+    content: '\f196';
+    color: #FFF;
+    float: right;
+    width: 10px
+}
+
+.ctAccordion.skin-sport li.open > a:before {
+    content: "\f147"
+}
+
+.ctAccordion.skin-sport p {
+    line-height: 20px;
+    padding: 15px 20px;
+    background-color: #FFF;
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+.ctAccordion.skin-sport > li.open > a {
+    color: #fe0
+}
+
+.ctAccordion.skin-sport > li {
+    width: 100%
+}
+
+.ctAccordion.skin-sport > li > a, .ctAccordion.skin-sport > li > span {
+    padding: 15px 0 15px 10px;
+    background-color: #000
+}
+
+.ctAccordion.skin-sport > li > span {
+    color: #939393
+}
+
+.ctAccordion.skin-sport > li > a:hover {
+    color: #fe0
+}
+
+.ctAccordion.skin-sport > li > ul {
+    list-style: none;
+    padding: 0
+}
+
+.ctAccordion.skin-sport > li > ul > li > a, .ctAccordion.skin-sport > li > ul > li > span {
+    background-color: #333;
+    padding: 15px 0 15px 20px
+}
+
+.ctAccordion.skin-sport > li > ul > li > span {
+    color: #939393
+}
+
+.ctAccordion.skin-sport > li > ul > li > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.ctAccordion.skin-sport > li > ul > li > ul > li > a, .ctAccordion.skin-sport > li > ul > li > ul > li > span {
+    background-color: #4d4d4d;
+    padding: 15px 0 15px 30px
+}
+
+.ctAccordion.skin-sport > li > ul > li > ul > li > a:before, .ctAccordion.skin-sport > li > ul > li > ul > li > span:before {
+    content: ""
+}
+
+.ctAccordion.skin-sport > li > ul > li > ul > li > span {
+    color: #939393
+}
+
+.ctAccordion.skin-sport > li > ul > li > ul > li > p {
+    font-size: 12px
+}
+
+.ctAccordion.skin-glossy {
+    list-style: none;
+    -webkit-padding-start: 0 !important
+}
+
+.ctAccordion.skin-glossy .accordion:after {
+    float: right;
+    content: attr(data-content);
+    padding: 1px 11px 1px 10px;
+    font-size: 12px;
+    line-height: 13px;
+    border: 1px solid rgba(51, 51, 51, .3);
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -webkit-border-top-left-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    -moz-border-radius-bottomright: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    -moz-border-radius-topleft: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    top: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-top: -10px;
+    right: 30px
+}
+
+.ctAccordion.skin-glossy .accordion:hover:after {
+    border-color: #FFF
+}
+
+.ctAccordion.skin-glossy ul {
+    overflow: hidden;
+    line-height: 0;
+    -webkit-padding-start: 0 !important;
+    margin: 0 !important
+}
+
+.ctAccordion.skin-glossy span {
+    position: relative;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: block;
+    color: rgba(0, 0, 0, .45);
+    line-height: 15px;
+    font-size: 15px;
+    min-width: 50px
+}
+
+.ctAccordion.skin-glossy a {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    color: #333;
+    line-height: 15px;
+    font-size: 15px;
+    min-width: 50px
+}
+
+.ctAccordion.skin-glossy a:before {
+    top: 50%;
+    position: absolute;
+    right: 10px;
+    margin-top: -9px;
+    font-family: FontAwesome;
+    content: '\f0da';
+    float: right;
+    width: 10px
+}
+
+.ctAccordion.skin-glossy a:hover {
+    -webkit-transition: all .6s ease-out;
+    -moz-transition: all .6s ease-out;
+    -o-transition: all .6s ease-out;
+    transition: all .6s ease-out;
+    color: #FFF;
+    background-color: #07F
+}
+
+.ctAccordion.skin-glossy li {
+    padding-top: 1px
+}
+
+.ctAccordion.skin-glossy li.open > a:before {
+    content: "\f0d7"
+}
+
+.ctAccordion.skin-glossy p {
+    line-height: 20px;
+    padding: 15px 20px;
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-topleft: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 0;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #F2F2F2;
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+.ctAccordion.skin-glossy > li {
+    width: 100%
+}
+
+.ctAccordion.skin-glossy > li > span {
+    background-image: linear-gradient(to top, #e1e1e1 50%, #f3f3f3 50%);
+    padding: 15px 0 15px 10px
+}
+
+.ctAccordion.skin-glossy > li > a {
+    padding: 15px 0 15px 10px;
+    background-image: linear-gradient(to top, #e1e1e1 50%, #f3f3f3 50%)
+}
+
+.ctAccordion.skin-glossy > li > a:hover {
+    background-image: linear-gradient(to top, rgba(225, 225, 225, .6) 50%, rgba(243, 243, 243, .6) 50%)
+}
+
+.ctAccordion.skin-glossy > li > ul {
+    list-style: none;
+    padding: 0
+}
+
+.ctAccordion.skin-glossy > li > ul > li {
+    margin-left: 20px
+}
+
+.ctAccordion.skin-glossy > li > ul > li > a {
+    background-image: linear-gradient(to top, #c7c7c7 50%, #dcdcdc 50%);
+    padding: 15px 0 15px 10px
+}
+
+.ctAccordion.skin-glossy > li > ul > li > a:hover {
+    background-image: linear-gradient(to top, rgba(199, 199, 199, .6) 50%, rgba(220, 220, 220, .6) 50%)
+}
+
+.ctAccordion.skin-glossy > li > ul > li > span {
+    background-image: linear-gradient(to top, #c7c7c7 50%, #dcdcdc 50%);
+    padding: 15px 0 15px 10px
+}
+
+.ctAccordion.skin-glossy > li > ul > li > ul {
+    list-style: none;
+    margin: 0
+}
+
+.ctAccordion.skin-glossy > li > ul > li > ul > li > a {
+    background-image: linear-gradient(to top, #b2b2b2 50%, #c4c4c4 50%);
+    background-color: #4d4d4d;
+    padding: 15px 0 15px 10px;
+    margin-left: 20px
+}
+
+.ctAccordion.skin-glossy > li > ul > li > ul > li > a:after, .ctAccordion.skin-glossy > li > ul > li > ul > li > a:before {
+    content: ""
+}
+
+.ctAccordion.skin-glossy > li > ul > li > ul > li > a:hover {
+    background-image: linear-gradient(to top, rgba(178, 178, 178, .5) 50%, rgba(196, 196, 196, .5) 50%)
+}
+
+.ctAccordion.skin-glossy > li > ul > li > ul > li > span {
+    background-image: linear-gradient(to top, #b2b2b2 50%, #c4c4c4 50%);
+    background-color: #4d4d4d;
+    padding: 15px 0 15px 10px;
+    margin-left: 20px
+}
+
+.ctAccordion.skin-glossy > li > ul > li > ul > li > p {
+    font-size: 12px
+}
+
+.ctAccordion.skin-lines {
+    list-style: none;
+    -webkit-padding-start: 0 !important
+}
+
+.ctAccordion.skin-lines .accordion:after {
+    float: right;
+    content: attr(data-content);
+    padding: 1px 11px 1px 10px;
+    line-height: 13px;
+    font-size: 12px;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -webkit-border-top-left-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    -moz-border-radius-bottomright: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    -moz-border-radius-topleft: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    top: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-top: -8px;
+    right: 10px;
+    border: 1px solid rgba(142, 178, 45, .5)
+}
+
+.ctAccordion.skin-lines ul {
+    overflow: hidden;
+    line-height: 0;
+    -webkit-padding-start: 0 !important;
+    margin: 0 !important
+}
+
+.ctAccordion.skin-lines a, .ctAccordion.skin-lines span {
+    position: relative;
+    text-decoration: none;
+    display: block;
+    color: #333;
+    line-height: 18px;
+    font-size: 18px;
+    min-width: 50px
+}
+
+.ctAccordion.skin-lines a:hover {
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    color: #8eb22d
+}
+
+.ctAccordion.skin-lines .accordion:hover:after {
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    color: #8eb22d
+}
+
+.ctAccordion.skin-lines a:before {
+    vertical-align: top;
+    font-size: 24px;
+    position: relative;
+    font-family: FontAwesome;
+    content: '\f105';
+    color: #8eb22d;
+    display: inline-block;
+    width: 23px
+}
+
+.ctAccordion.skin-lines li.open > a:before {
+    content: "\f107"
+}
+
+.ctAccordion.skin-lines p {
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 0 20px 15px 20px;
+    margin-top: 0
+}
+
+.ctAccordion.skin-lines > li {
+    width: 100%
+}
+
+.ctAccordion.skin-lines > li:last-child > * {
+    border-bottom: 2px solid #8eb22d
+}
+
+.ctAccordion.skin-lines > li:last-child.open > * {
+    border-bottom: none
+}
+
+.ctAccordion.skin-lines > li:last-child > ul > li:last-child {
+    border-bottom: 2px solid #8eb22d
+}
+
+.ctAccordion.skin-lines > li > span {
+    padding: 15px 0 15px 23px;
+    border-top: 2px solid #8eb22d;
+    color: #939393
+}
+
+.ctAccordion.skin-lines > li > a {
+    border-top: 2px solid #8eb22d;
+    padding: 15px 0 15px 10px
+}
+
+.ctAccordion.skin-lines > li > a:hover {
+    color: #8eb22d
+}
+
+.ctAccordion.skin-lines > li > ul {
+    list-style: none;
+    padding: 0
+}
+
+.ctAccordion.skin-lines > li > ul > li > a {
+    border-top: 1px solid #8eb22d;
+    padding: 15px 0 15px 20px
+}
+
+.ctAccordion.skin-lines > li > ul > li > span {
+    border-top: 1px solid #8eb22d;
+    padding: 15px 0 15px 43px;
+    color: #939393
+}
+
+.ctAccordion.skin-lines > li > ul > li > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.ctAccordion.skin-lines > li > ul > li > ul > li > a {
+    font-size: 15px;
+    padding: 0 0 15px 22px
+}
+
+.ctAccordion.skin-lines > li > ul > li > ul > li > span {
+    font-size: 15px;
+    padding: 0 0 15px 45px;
+    color: #939393
+}
+
+.ctAccordion.skin-lines > li > ul > li > ul > li > a:before {
+    content: ""
+}
+
+.ctAccordion.skin-lines > li > ul > li > ul > li > p {
+    font-size: 12px
+}
+
+.ctAccordion.skin-slick {
+    -webkit-padding-start: 0 !important;
+    list-style: none
+}
+
+.ctAccordion.skin-slick .accordion:after {
+    font-family: FontAwesome;
+    content: attr(data-content);
+    top: -2px;
+    padding: 1px 11px 1px 10px;
+    line-height: 13px;
+    font-size: 12px;
+    background-color: #444;
+    border-bottom: 1px solid #818181;
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -webkit-border-top-left-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    -moz-border-radius-bottomright: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    -moz-border-radius-topleft: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    position: relative;
+    display: inline-block;
+    float: right
+}
+
+.ctAccordion.skin-slick .accordion:hover:after {
+    border-bottom-color: #9bbb55;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    background-color: #5b771f
+}
+
+.ctAccordion.skin-slick ul {
+    overflow: hidden;
+    line-height: 0;
+    -webkit-padding-start: 0 !important;
+    margin: 0 !important
+}
+
+.ctAccordion.skin-slick a, .ctAccordion.skin-slick span {
+    position: relative;
+    border-top: 1px solid;
+    text-decoration: none;
+    display: block;
+    line-height: 12px;
+    font-size: 12px;
+    min-width: 50px
+}
+
+.ctAccordion.skin-slick a {
+    color: gray
+}
+
+.ctAccordion.skin-slick span {
+    color: #c6c6c6
+}
+
+.ctAccordion.skin-slick a:after {
+    font-family: FontAwesome;
+    content: '\f0da';
+    float: right
+}
+
+.ctAccordion.skin-slick a:after:hover {
+    background-color: transparent !important
+}
+
+.ctAccordion.skin-slick p {
+    line-height: 20px;
+    padding: 15px 20px;
+    background-color: #F7F7F7;
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+.ctAccordion.skin-slick > li.open > a {
+    background: -webkit-linear-gradient(top, #79a122, #9dc547);
+    background: -moz-linear-gradient(top, #79a122, #9dc547);
+    background: -o-linear-gradient(top, #79a122, #9dc547);
+    background: linear-gradient(to top, #79a122, #9dc547)
+}
+
+.ctAccordion.skin-slick > li.open > a:after {
+    content: "\f0d7"
+}
+
+.ctAccordion.skin-slick > li.open > .accordion:after {
+    background-color: #5b771f;
+    border-bottom-color: #9bbb55
+}
+
+.ctAccordion.skin-slick > li {
+    width: 100%
+}
+
+.ctAccordion.skin-slick > li > span {
+    border-color: #979797;
+    padding: 15px 10px 15px 10px;
+    background: #575757;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #575757), color-stop(1, #7c7c7c));
+    background: -ms-linear-gradient(bottom, #575757, #7c7c7c);
+    background: -moz-linear-gradient(center bottom, #575757 0, #7c7c7c 100%);
+    background: -o-linear-gradient(#7c7c7c, #575757);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7c7c7c', endColorstr='#575757', GradientType=0);
+    color: rgba(255, 255, 255, .4)
+}
+
+.ctAccordion.skin-slick > li > a {
+    border-color: #979797;
+    display: block;
+    position: relative;
+    z-index: 1;
+    background: -webkit-linear-gradient(top, #575757, #7c7c7c);
+    background: -moz-linear-gradient(top, #575757, #7c7c7c);
+    background: -o-linear-gradient(top, #575757, #7c7c7c);
+    background: linear-gradient(to top, #575757, #7c7c7c);
+    color: #fff !important;
+    text-shadow: .75px .75px #080808;
+    padding: 15px 10px 15px 10px
+}
+
+.ctAccordion.skin-slick > li > a:before {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+    background: -webkit-linear-gradient(top, #79a122, #9dc547);
+    background: -moz-linear-gradient(top, #79a122, #9dc547);
+    background: -o-linear-gradient(top, #79a122, #9dc547);
+    background: linear-gradient(to top, #79a122, #9dc547);
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    content: ".";
+    text-indent: -99999px
+}
+
+.ctAccordion.skin-slick > li > a:hover:before {
+    opacity: 1
+}
+
+.ctAccordion.skin-slick > li > a:hover {
+    border-top-color: #b1d16c
+}
+
+.ctAccordion.skin-slick > li > ul {
+    list-style: none;
+    padding: 0
+}
+
+.ctAccordion.skin-slick > li > ul > li.open > a:after {
+    content: "\f0d7"
+}
+
+.ctAccordion.skin-slick > li > ul > li > span {
+    border-color: #dedede;
+    background-color: #f0f0f0;
+    padding: 15px 10px 15px 10px
+}
+
+.ctAccordion.skin-slick > li > ul > li > a {
+    border-color: #dedede;
+    background-color: #f0f0f0;
+    padding: 15px 10px 15px 10px
+}
+
+.ctAccordion.skin-slick > li > ul > li > a:hover {
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+    background-color: #fcfcfc;
+    color: gray
+}
+
+.ctAccordion.skin-slick > li > ul > li > .accordion:after {
+    border: 1px solid #d8d8d8;
+    background-color: transparent
+}
+
+.ctAccordion.skin-slick > li > ul > li > .accordion:hover:after {
+    border: 1px solid #d8d8d8;
+    background-color: transparent
+}
+
+.ctAccordion.skin-slick > li > ul > li:first-child > a {
+    border-top: none
+}
+
+.ctAccordion.skin-slick > li > ul > li > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.ctAccordion.skin-slick > li > ul > li > ul > li > span {
+    border-color: #dedede;
+    background-color: #f7f7f7;
+    padding: 15px 0 15px 10px
+}
+
+.ctAccordion.skin-slick > li > ul > li > ul > li > a {
+    border-color: #dedede;
+    background-color: #f7f7f7;
+    padding: 15px 0 15px 10px
+}
+
+.ctAccordion.skin-slick > li > ul > li > ul > li > a:hover {
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+    background-color: #fcfcfc;
+    color: gray
+}
+
+.ctAccordion.skin-slick > li > ul > li > ul > li > a:after {
+    display: none
+}
+
+.ctAccordion.skin-slick > li > ul > li > ul > li > p {
+    font-size: 12px
+}
+
+.ctAccordion.skin-paper {
+    -webkit-padding-start: 0 !important;
+    list-style: none
+}
+
+.ctAccordion.skin-paper .helper {
+    top: 50%;
+    position: absolute;
+    display: inline-block;
+    margin-left: 12px;
+    left: auto;
+    right: 0;
+    margin-top: -8px
+}
+
+.ctAccordion.skin-paper .helper > .helper2:before {
+    font-size: 20px;
+    font-family: FontAwesome;
+    content: '\f105';
+    padding-left: 10px;
+    float: right;
+    padding-right: 10px
+}
+
+.ctAccordion.skin-paper .accordion:after {
+    content: attr(data-content);
+    padding: 1px 11px 1px 10px;
+    font-size: 12px;
+    line-height: 13px;
+    border: 1px solid rgba(0, 0, 0, .3);
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -webkit-border-top-left-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    -moz-border-radius-bottomright: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    -moz-border-radius-topleft: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    top: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-top: -9px;
+    right: 30px
+}
+
+.ctAccordion.skin-paper .accordion:hover:after {
+    border: 1px solid rgba(255, 255, 255, .5)
+}
+
+.ctAccordion.skin-paper ul {
+    overflow: hidden;
+    line-height: 0;
+    -webkit-padding-start: 0 !important;
+    margin: 0 !important
+}
+
+.ctAccordion.skin-paper a, .ctAccordion.skin-paper span {
+    text-decoration: none;
+    display: block;
+    text-shadow: 1px 1px #fff;
+    color: #666;
+    line-height: 14px;
+    font-size: 14px;
+    font-weight: 600;
+    position: relative
+}
+
+.ctAccordion.skin-paper a:hover, .ctAccordion.skin-paper span:hover {
+    -webkit-transition: all 1s ease-out;
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    transition: all 1s ease-out
+}
+
+.ctAccordion.skin-paper a:before, .ctAccordion.skin-paper span:before {
+    font-size: 20px;
+    font-family: FontAwesome;
+    content: '\f105';
+    float: right
+}
+
+.ctAccordion.skin-paper span:after, .ctAccordion.skin-paper span:before {
+    display: none
+}
+
+.ctAccordion.skin-paper li a, .ctAccordion.skin-paper span {
+    border-top: solid 1px #ccc;
+    border-left: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+    border-top: 0 !important
+}
+
+.ctAccordion.skin-paper li.open > a:before {
+    content: "\f107"
+}
+
+.ctAccordion.skin-paper p {
+    line-height: 20px;
+    padding: 15px 20px;
+    background-color: #FFF;
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+.ctAccordion.skin-paper > li {
+    width: 100%
+}
+
+.ctAccordion.skin-paper > li.open .helper > .helper2:before {
+    content: "\f107"
+}
+
+.ctAccordion.skin-paper > li:first-child {
+    border-top: 1px solid #CCC !important
+}
+
+.ctAccordion.skin-paper > li > span {
+    padding: 15px 0 15px 20px;
+    background: #fff;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #ededed), color-stop(1, #fafafa));
+    background: -ms-linear-gradient(bottom, #ededed, #fafafa);
+    background: -moz-linear-gradient(center bottom, #ededed 0, #fafafa 100%);
+    background: -o-linear-gradient(#fafafa, #ededed);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#ededed', GradientType=0);
+    color: #939393;
+    border-top: solid 1px #ccc;
+    border-left: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+    border-top: 0 !important
+}
+
+.ctAccordion.skin-paper > li > span .helper {
+    display: none
+}
+
+.ctAccordion.skin-paper > li > a {
+    padding: 15px 0 15px 20px;
+    display: block;
+    position: relative;
+    z-index: 1;
+    background: -webkit-linear-gradient(top, #ededed, #fafafa);
+    background: -moz-linear-gradient(top, #ededed, #fafafa);
+    background: -o-linear-gradient(top, #ededed, #fafafa);
+    background: linear-gradient(to top, #ededed, #fafafa);
+    color: #666
+}
+
+.ctAccordion.skin-paper > li > a.noContent > .helper {
+    display: none
+}
+
+.ctAccordion.skin-paper > li > a:before {
+    width: 100% !important;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    background-color: #369dca !important;
+    text-shadow: none;
+    content: ".";
+    text-indent: -99999px
+}
+
+.ctAccordion.skin-paper > li > a:hover {
+    text-shadow: none;
+    color: #fff
+}
+
+.ctAccordion.skin-paper > li > a:hover:before {
+    opacity: 1
+}
+
+.ctAccordion.skin-paper > li > a:hover:after {
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    color: #fff;
+    text-shadow: none
+}
+
+.ctAccordion.skin-paper > li > ul {
+    list-style: none;
+    padding: 0
+}
+
+.ctAccordion.skin-paper > li > ul > li .helper {
+    display: none
+}
+
+.ctAccordion.skin-paper > li > ul > li > a {
+    background: #e5e5e5;
+    padding: 15px 0 15px 30px;
+    border-top: 1px solid transparent !important
+}
+
+.ctAccordion.skin-paper > li > ul > li > a:hover {
+    background-color: #369dca !important;
+    text-shadow: none;
+    color: #fff
+}
+
+.ctAccordion.skin-paper > li > ul > li > a:before {
+    top: 50%;
+    position: absolute;
+    right: 14px;
+    margin-top: -9px;
+    font-size: 20px;
+    font-family: FontAwesome;
+    content: '\f105';
+    float: right;
+    width: 10px
+}
+
+.ctAccordion.skin-paper > li > ul > li > span {
+    background: #e5e5e5;
+    padding: 15px 0 15px 30px;
+    border-top: 1px solid transparent !important;
+    color: #939393
+}
+
+.ctAccordion.skin-paper > li > ul > li:first-child > a {
+    -webkit-box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, .07);
+    -moz-box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, .07);
+    box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, .07)
+}
+
+.ctAccordion.skin-paper > li > ul > li > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.ctAccordion.skin-paper > li > ul > li > ul > li:first-child > a {
+    -webkit-box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, .07);
+    -moz-box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, .07);
+    box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, .07)
+}
+
+.ctAccordion.skin-paper > li > ul > li > ul > li > a {
+    background: #dbdbdb;
+    border-top: 1px solid transparent !important;
+    padding: 15px 0 15px 50px
+}
+
+.ctAccordion.skin-paper > li > ul > li > ul > li > a:hover {
+    background-color: #369dca !important;
+    text-shadow: none;
+    color: #fff
+}
+
+.ctAccordion.skin-paper > li > ul > li > ul > li > a:before {
+    display: none
+}
+
+.ctAccordion.skin-paper > li > ul > li > ul > li > a:after {
+    content: ""
+}
+
+.ctAccordion.skin-paper > li > ul > li > ul > li > span {
+    background: #dbdbdb;
+    padding: 15px 0 15px 50px;
+    border-top: 1px solid transparent !important;
+    color: #939393
+}
+
+.ctAccordion.skin-paper > li > ul > li > ul > li > p {
+    font-size: 12px
+}
+
+.ctAccordion.skin-simple {
+    list-style: none;
+    -webkit-padding-start: 0 !important
+}
+
+.ctAccordion.skin-simple .accordion:after {
+    top: 50%;
+    content: attr(data-content);
+    padding: 1px 11px 1px 10px;
+    margin-top: -8px;
+    right: 7px;
+    line-height: 13px;
+    font-size: 12px;
+    border: 1px solid rgba(129, 129, 129, .3);
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -webkit-border-top-left-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    -moz-border-radius-bottomright: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    -moz-border-radius-topleft: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    margin-left: 20px;
+    position: absolute
+}
+
+.ctAccordion.skin-simple ul {
+    overflow: hidden;
+    line-height: 0;
+    -webkit-padding-start: 0 !important;
+    margin: 0 !important
+}
+
+.ctAccordion.skin-simple a, .ctAccordion.skin-simple span {
+    position: relative;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    color: #333;
+    line-height: 18px;
+    font-size: 18px;
+    min-width: 50px
+}
+
+.ctAccordion.skin-simple span {
+    color: rgba(0, 0, 0, .5) !important
+}
+
+.ctAccordion.skin-simple a:hover {
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    color: #ea623d
+}
+
+.ctAccordion.skin-simple a:before {
+    vertical-align: top;
+    display: inline-block;
+    font-size: 14px;
+    font-family: FontAwesome;
+    content: '\f067';
+    color: #ea623d;
+    width: 23px
+}
+
+.ctAccordion.skin-simple li.open > a:before {
+    content: "\f068"
+}
+
+.ctAccordion.skin-simple p {
+    line-height: 20px;
+    padding: 15px 20px;
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+.ctAccordion.skin-simple > li {
+    width: 100%
+}
+
+.ctAccordion.skin-simple > li > span {
+    padding: 15px 0 15px 23px;
+    border-bottom: 1px solid #e5e5e5
+}
+
+.ctAccordion.skin-simple > li > a {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 15px 0 15px 0
+}
+
+.ctAccordion.skin-simple > li > a:hover {
+    color: #ea623d
+}
+
+.ctAccordion.skin-simple > li > span:last-child {
+    border-bottom: 1px solid #e5e5e5
+}
+
+.ctAccordion.skin-simple > li > ul {
+    list-style: none;
+    padding: 0
+}
+
+.ctAccordion.skin-simple > li > ul > li .accordion:after {
+    font-size: 13px
+}
+
+.ctAccordion.skin-simple > li > ul > li > a, .ctAccordion.skin-simple > li > ul > li > span {
+    border-bottom: 1px solid #e5e5e5;
+    padding: 15px 0 15px 10px
+}
+
+.ctAccordion.skin-simple > li > ul > li > span {
+    padding: 15px 0 15px 33px
+}
+
+.ctAccordion.skin-simple > li > ul > li > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.ctAccordion.skin-simple > li > ul > li > ul > li:first-child > a, .ctAccordion.skin-simple > li > ul > li > ul > li:first-child > span {
+    padding-top: 13px !important
+}
+
+.ctAccordion.skin-simple > li > ul > li > ul > li:last-child > a, .ctAccordion.skin-simple > li > ul > li > ul > li > p {
+    border-bottom: 1px solid #e5e5e5
+}
+
+.ctAccordion.skin-simple > li > ul > li > ul > li > a, .ctAccordion.skin-simple > li > ul > li > ul > li > span {
+    font-size: 15px;
+    padding: 0 0 13px 20px
+}
+
+.ctAccordion.skin-simple > li > ul > li > ul > li > span {
+    padding: 0 0 13px 43px
+}
+
+.ctAccordion.skin-simple > li > ul > li > ul > li > a:before {
+    content: ""
+}
+
+.ctAccordion.skin-simple > li > ul > li > ul > li > p {
+    font-size: 12px
+}
+
+.ctAccordion.skin-flat {
+    list-style: none;
+    -webkit-padding-start: 0 !important
+}
+
+.ctAccordion.skin-flat .accordion:after {
+    content: attr(data-content);
+    padding: 1px 11px 1px 10px;
+    line-height: 13px;
+    border: 1px solid rgba(255, 255, 255, .3);
+    -webkit-border-top-right-radius: 20px;
+    -webkit-border-bottom-right-radius: 20px;
+    -webkit-border-bottom-left-radius: 20px;
+    -webkit-border-top-left-radius: 20px;
+    -moz-border-radius-topright: 20px;
+    -moz-border-radius-bottomright: 20px;
+    -moz-border-radius-bottomleft: 20px;
+    -moz-border-radius-topleft: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    font-size: 12px;
+    top: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-top: -8px;
+    right: 30px
+}
+
+.ctAccordion.skin-flat ul {
+    overflow: hidden;
+    line-height: 0;
+    -webkit-padding-start: 0 !important;
+    margin: 0 !important
+}
+
+.ctAccordion.skin-flat span {
+    position: relative;
+    text-decoration: none;
+    display: block;
+    color: rgba(255, 255, 255, .4);
+    line-height: 16px;
+    font-size: 16px;
+    min-width: 50px
+}
+
+.ctAccordion.skin-flat a {
+    position: relative;
+    text-decoration: none;
+    display: block;
+    color: #FFF;
+    line-height: 16px;
+    font-size: 16px;
+    min-width: 50px
+}
+
+.ctAccordion.skin-flat a:before {
+    top: 50%;
+    position: absolute;
+    right: 10px;
+    margin-top: -7px;
+    font-family: FontAwesome;
+    content: '\f0da';
+    float: right;
+    width: 10px
+}
+
+.ctAccordion.skin-flat a:hover {
+    color: #FFF;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.ctAccordion.skin-flat li.open > a:before {
+    content: "\f0d7"
+}
+
+.ctAccordion.skin-flat p {
+    line-height: 20px;
+    padding: 15px 20px;
+    background-color: #ecf3f9;
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+.ctAccordion.skin-flat > li {
+    width: 100%
+}
+
+.ctAccordion.skin-flat > li:first-child > a, .ctAccordion.skin-flat > li:first-child > span {
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -moz-border-radius-bottomright: 0;
+    -moz-border-radius-bottomleft: 0;
+    -moz-border-radius-topleft: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 4px;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box
+}
+
+.ctAccordion.skin-flat > li:last-child > a, .ctAccordion.skin-flat > li:last-child > span {
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-topleft: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 0;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box
+}
+
+.ctAccordion.skin-flat > li:last-child.open > a, .ctAccordion.skin-flat > li:last-child.open > span {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important
+}
+
+.ctAccordion.skin-flat > li:last-child > ul:last-child {
+    -webkit-border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-topright: 0;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-topleft: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 0;
+    -moz-background-clip: padding-box;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box
+}
+
+.ctAccordion.skin-flat > li.open a > .helper {
+    z-index: 1
+}
+
+.ctAccordion.skin-flat > li.closed a > .helper {
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    z-index: -1;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 8px solid #1875DC;    /* #5192c8 */
+    position: relative;
+    display: inline-block;
+    float: left;
+    top: 32px;
+    right: 0;
+    bottom: 0;
+    left: 28px
+}
+
+.ctAccordion.skin-flat > li > span {
+    background-color: #5192c8;
+    padding: 15px 0 15px 20px
+}
+
+.ctAccordion.skin-flat > li > a {
+    border-bottom: 1px solid #1875DC;  /* #4d8bbe */
+    padding: 15px 0 15px 0;
+    background-color: #1875DC  /* #5192c8 */
+}
+
+.ctAccordion.skin-flat > li > a .searchMatch {
+    background: #8b8855;
+    background: linear-gradient(bottom, #8b8855 0, #e9d925 100%);
+    background: -moz-linear-gradient(bottom, #8b8855 0, #e9d925 100%);
+    background: -o-linear-gradient(bottom, #8b8855 0, #e9d925 100%);
+    background: -webkit-linear-gradient(bottom, #8b8855 0, #e9d925 100%);
+    background: -ms-linear-gradient(bottom, #8b8855 0, #e9d925 100%);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #8b8855), color-stop(1, #e9d925))
+}
+
+.ctAccordion.skin-flat > li > a > .helper {
+    z-index: -1;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 8px solid #1875DC;  /* #5192c8 */
+    position: relative;
+    display: inline-block;
+    float: left;
+    top: 31.4px;
+    right: 0;
+    bottom: 0;
+    left: 28px
+}
+
+.ctAccordion.skin-flat > li > ul {
+    list-style: none;
+    padding: 0
+}
+
+.ctAccordion.skin-flat > li > ul > li.closed > a > .helper {
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    z-index: -1
+}
+
+.ctAccordion.skin-flat > li > ul > li > a, .ctAccordion.skin-flat > li > ul > li > span {
+    padding: 15px 0 15px 0;
+    background-color: #6ba2d0;
+    border-bottom: 1px solid #7ea9cd
+}
+
+.ctAccordion.skin-flat > li > ul > li > a .uberHelper, .ctAccordion.skin-flat > li > ul > li > span .uberHelper {
+    width: 87%
+}
+
+.ctAccordion.skin-flat > li > ul > li > a > .helper, .ctAccordion.skin-flat > li > ul > li > span > .helper {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 8px solid #6ba2d0;
+    position: relative;
+    display: inline-block;
+    float: left;
+    top: 31.4px;
+    right: 0;
+    bottom: 0;
+    left: 28px
+}
+
+.ctAccordion.skin-flat > li > ul > li > span > .helper {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 8px solid transparent;
+    position: relative;
+    display: inline-block;
+    float: left;
+    top: 31.4px;
+    right: 0;
+    bottom: 0;
+    left: 28px
+}
+
+.ctAccordion.skin-flat > li > ul > li > ul {
+    list-style: none;
+    margin: 0
+}
+
+.ctAccordion.skin-flat > li > ul > li > ul > li > a, .ctAccordion.skin-flat > li > ul > li > ul > li > span {
+    background-color: #35526abf;  /* #85b2d8 */
+    padding: 15px 0 15px 30px;
+    border-bottom: 1px solid #35526abf  /* #7ea9cd */    
+}
+
+.ctAccordion.skin-flat > li > ul > li > ul > li > a:before, .ctAccordion.skin-flat > li > ul > li > ul > li > span:before {
+    content: ""
+}
+
+.ctAccordion.skin-flat > li > ul > li > ul > li > a .uberHelper, .ctAccordion.skin-flat > li > ul > li > ul > li > span .uberHelper {
+    width: 87%
+}
+
+.ctAccordion.skin-flat > li > ul > li > ul > li > a:hover, .ctAccordion.skin-flat > li > ul > li > ul > li > span:hover {
+    -webkit-transition: all .5s ease-out;
+    -moz-transition: all .5s ease-out;
+    -o-transition: all .5s ease-out;
+    transition: all .5s ease-out;
+    text-decoration: underline
+}
+
+.ctAccordion.skin-flat > li > ul > li > ul > li > a:after, .ctAccordion.skin-flat > li > ul > li > ul > li > span:after {
+    content: ""
+}
+
+.ctAccordion.skin-flat > li > ul > li > ul > li > p {
+    font-size: 16px
+}
+
+.ctAccordion.skin-ribbon {
+    -webkit-padding-start: 0 !important;
+    list-style: none;
+    position: relative
+}
+
+.ctAccordion.skin-ribbon ul {
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+    line-height: 0;
+    -webkit-padding-start: 0 !important
+}
+
+.ctAccordion.skin-ribbon a, .ctAccordion.skin-ribbon span {
+    line-height: 20px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    padding: 2px 20px 2px 0;
+    font-size: 16px;
+    min-width: 50px;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out
+}
+
+.ctAccordion.skin-ribbon a.noContent:after, .ctAccordion.skin-ribbon span.noContent:after {
+    font-size: 14px;
+    padding-left: 10px;
+    font-family: FontAwesome;
+    color: #fff !important;
+    content: "\f0da" !important
+}
+
+.ctAccordion.skin-ribbon .searchMatch {
+    font-weight: 700;
+    font-style: italic
+}
+
+.ctAccordion.skin-ribbon p {
+    line-height: 20px;
+    padding: 15px 20px;
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+.ctAccordion.skin-ribbon > li {
+    line-height: 25px;
+    width: 100%
+}
+
+.ctAccordion.skin-ribbon > li > a, .ctAccordion.skin-ribbon > li > span {
+    background: transparent url(../images/ribbon/ribbon-upd-body.png);
+    margin-bottom: 15px;
+    color: #fff;
+    padding: 0 0 0 20px;
+    width: 99%;
+    font-size: 16px;
+    line-height: 43px
+}
+
+.ctAccordion.skin-ribbon > li > a:before, .ctAccordion.skin-ribbon > li > span:before {
+    display: block;
+    content: " ";
+    width: 23px;
+    height: 55px;
+    position: absolute;
+    left: -10px;
+    background: transparent url(../images/ribbon/ribbon-upd-butt.png) repeat-x 0 0
+}
+
+.ctAccordion.skin-ribbon > li > a .helper, .ctAccordion.skin-ribbon > li > span .helper {
+    float: right !important;
+    border-left: 15px solid #d8502a !important;
+    border-bottom: 22px solid transparent !important;
+    border-top: 21px solid transparent !important;
+    width: 0;
+    height: 0;
+    border-left: 0 solid #d8502a;
+    border-bottom: 0 solid transparent;
+    border-top: 0 solid transparent;
+    position: relative;
+    display: inline-block;
+    float: right;
+    top: -.5px;
+    right: 0;
+    bottom: 0;
+    left: 14px
+}
+
+.ctAccordion.skin-ribbon > li > a:hover {
+    padding: 0 0 0 30px
+}
+
+.ctAccordion.skin-ribbon > li span {
+    color: rgba(255, 255, 255, .5) !important
+}
+
+.ctAccordion.skin-ribbon > li > ul {
+    list-style: none;
+    margin-top: 10px;
+    padding: 0 0 5px 25px
+}
+
+.ctAccordion.skin-ribbon > li > ul > li {
+    margin: 7px 0
+}
+
+.ctAccordion.skin-ribbon > li > ul > li > a {
+    padding: 0 0 0 25px;
+    color: #d8502a
+}
+
+.ctAccordion.skin-ribbon > li > ul > li > a:hover {
+    color: #000
+}
+
+.ctAccordion.skin-ribbon > li > ul > li > a:before {
+    padding-right: 15px;
+    font-size: 16px;
+    color: #d8502a;
+    position: relative;
+    font-family: FontAwesome;
+    content: "\f054";
+    width: 30px
+}
+
+.ctAccordion.skin-ribbon > li > ul > li > a.noContent:after {
+    color: #d8502a !important
+}
+
+.ctAccordion.skin-ribbon > li > ul > li > a.noContent:hover:after {
+    color: #333 !important
+}
+
+.ctAccordion.skin-ribbon > li > ul > li span {
+    color: rgba(216, 80, 42, .5) !important
+}
+
+.ctAccordion.skin-ribbon > li > ul > li > span {
+    padding: 0 0 0 52px
+}
+
+.ctAccordion.skin-ribbon > li > ul > li.open > a {
+    color: #333
+}
+
+.ctAccordion.skin-ribbon > li > ul > li > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 5px
+}
+
+.ctAccordion.skin-ribbon > li > ul > li > ul > li {
+    padding: 0 0 0 30px
+}
+
+.ctAccordion.skin-ribbon > li > ul > li > ul > li > a, .ctAccordion.skin-ribbon > li > ul > li > ul > li > span {
+    padding: 10px 0 5px 40px;
+    color: #d8502a
+}
+
+.ctAccordion.skin-ribbon > li > ul > li > ul > li > a:hover, .ctAccordion.skin-ribbon > li > ul > li > ul > li > span:hover {
+    color: #333
+}
+
+.ctAccordion.skin-ribbon > li > ul > li > ul > li > span {
+    padding-left: 40px
+}
+
+.ctAccordion.skin-ribbon > li > ul > li > ul > li > p {
+    padding: 10px 20px 15px 20px;
+    font-size: 12px
+}
+
+.ctAccordion.skin-color {
+    -webkit-padding-start: 0 !important;
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+.ctAccordion.skin-color ul {
+    overflow: hidden;
+    line-height: 0;
+    -webkit-padding-start: 0 !important
+}
+
+.ctAccordion.skin-color a, .ctAccordion.skin-color span {
+    text-decoration: none;
+    display: relative;
+    font-family: 'Open Sans', sans-serif;
+    padding: 2px 20px 2px 0;
+    font-size: 16px;
+    min-width: 50px;
+    line-height: 30px
+}
+
+.ctAccordion.skin-color a:after, .ctAccordion.skin-color span:after {
+    font-size: 13px
+}
+
+.ctAccordion.skin-color span {
+    color: #939393
+}
+
+.ctAccordion.skin-color p {
+    line-height: 20px;
+    padding: 0 20px 15px 20px;
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+.ctAccordion.skin-color > li {
+    width: 100%
+}
+
+.ctAccordion.skin-color > li > a {
+    color: #093
+}
+
+.ctAccordion.skin-color > li > a:hover {
+    text-decoration: underline
+}
+
+.ctAccordion.skin-color > li > a:after {
+    display: inline-block;
+    padding-left: 20px;
+    position: relative;
+    font-family: FontAwesome;
+    content: "\f054"
+}
+
+.ctAccordion.skin-color > li > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 15px
+}
+
+.ctAccordion.skin-color > li > ul > li > span {
+    margin-left: 15px
+}
+
+.ctAccordion.skin-color > li > ul > li > a {
+    color: #1076BB;
+    margin-left: 15px
+}
+
+.ctAccordion.skin-color > li > ul > li > a:hover {
+    text-decoration: underline
+}
+
+.ctAccordion.skin-color > li > ul > li > a:after {
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+    font-family: FontAwesome;
+    content: "\f054";
+    text-decoration: none !important
+}
+
+.ctAccordion.skin-color > li > ul > li > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.ctAccordion.skin-color > li > ul > li > ul > li > a {
+    color: #c00;
+    font-size: 16px;
+    padding-left: 30px
+}
+
+.ctAccordion.skin-color > li > ul > li > ul > li > a:hover {
+    text-decoration: underline
+}
+
+.ctAccordion.skin-color > li > ul > li > ul > li > span {
+    padding-left: 30px
+}
+
+.ctAccordion.skin-color > li > ul > li > ul > li > p {
+    font-size: 12px
+}
+
+.ctAccordion.skin-minimal {
+    list-style: none;
+    -webkit-padding-start: 0 !important;
+    padding: 0;
+    margin: 0
+}
+
+.ctAccordion.skin-minimal ul {
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+    line-height: 0;
+    -webkit-padding-start: 0 !important
+}
+
+.ctAccordion.skin-minimal a, .ctAccordion.skin-minimal span {
+    padding-bottom: 5px;
+    line-height: 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #666
+}
+
+.ctAccordion.skin-minimal a:before, .ctAccordion.skin-minimal span:before, .ctAccordion.skin-minimal a:after, .ctAccordion.skin-minimal span:after {
+    color: #ccc;
+    font-size: 10px;
+    font-weight: 600;
+    display: inline-block;
+    width: 15px;
+    font-family: FontAwesome
+}
+
+.ctAccordion.skin-minimal a:before, .ctAccordion.skin-minimal span:before {
+    margin-left: 10px
+}
+
+.ctAccordion.skin-minimal span {
+    color: #939393
+}
+
+.ctAccordion.skin-minimal a:hover {
+    color: #5a5a5a
+}
+
+.ctAccordion.skin-minimal .searchMatch {
+    font-weight: 700;
+    font-style: italic
+}
+
+.ctAccordion.skin-minimal p {
+    line-height: 20px;
+    font-size: 13px;
+    padding: 0 20px 15px 35px;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #666
+}
+
+.ctAccordion.skin-minimal li.open > a:before {
+    content: "\f078"
+}
+
+.ctAccordion.skin-minimal > li {
+    width: 100%
+}
+
+.ctAccordion.skin-minimal > li > a:before {
+    content: "\f054"
+}
+
+.ctAccordion.skin-minimal > li > ul > li > a {
+    padding-left: 20px
+}
+
+.ctAccordion.skin-minimal > li > ul > li > a:before {
+    content: "\f054"
+}
+
+.ctAccordion.skin-minimal > li > ul > li > span {
+    padding-left: 45px
+}
+
+.ctAccordion.skin-minimal > li > ul > li > ul > li > a, .ctAccordion.skin-minimal > li > ul > li > ul > li > span {
+    padding-left: 40px
+}
+
+.ctAccordion.skin-pointer {
+    -webkit-padding-start: 0 !important;
+    padding: 0 15px;
+    margin: 0;
+    list-style: none;
+    background: #f8f8f8
+}
+
+.ctAccordion.skin-pointer ul {
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+    line-height: 0;
+    -webkit-padding-start: 0 !important
+}
+
+.ctAccordion.skin-pointer a, .ctAccordion.skin-pointer span {
+    padding: 9px 0 8px 15px;
+    line-height: 20px;
+    text-decoration: none;
+    display: block;
+    color: #404040;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    vertical-align: baseline
+}
+
+.ctAccordion.skin-pointer span {
+    color: rgba(0, 0, 0, .45) !important
+}
+
+.ctAccordion.skin-pointer a:hover {
+    color: #5a5a5a
+}
+
+.ctAccordion.skin-pointer .searchMatch {
+    font-weight: 700;
+    font-style: italic
+}
+
+.ctAccordion.skin-pointer p {
+    line-height: 20px;
+    padding: 15px 20px;
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+.ctAccordion.skin-pointer > li {
+    line-height: 25px;
+    width: 100%
+}
+
+.ctAccordion.skin-pointer > li:first-child > a {
+    border-top-color: transparent
+}
+
+.ctAccordion.skin-pointer > li > a, .ctAccordion.skin-pointer > li > span {
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid #dedede
+}
+
+.ctAccordion.skin-pointer > li.open > a {
+    -webkit-transition: all 0s ease-out;
+    -moz-transition: all 0s ease-out;
+    -o-transition: all 0s ease-out;
+    transition: all 0s ease-out;
+    padding: 4px 0 8px 5px;
+    color: #dd4436
+}
+
+.ctAccordion.skin-pointer > li.open > a > .uberHelper {
+    border-bottom: 1px solid #dedede;
+    border-top: 1px solid #dedede;
+    border-left: 1px solid #dedede;
+    overflow: hidden;
+    display: block;
+    padding: 4px 0 7px 9px;
+    background-color: #fff
+}
+
+.ctAccordion.skin-pointer > li.open > a > .independentHelper:after {
+    border-left: 10px solid #fff;
+    border-bottom: 14px solid transparent;
+    border-top: 14px solid transparent;
+    position: relative;
+    display: inline-block;
+    content: " ";
+    float: right;
+    top: -30px;
+    right: -10px;
+    right: -21px
+}
+
+.ctAccordion.skin-pointer > li.open > a > .independentHelper:before {
+    border-left: 11px solid #dedede;
+    border-bottom: 16px solid transparent;
+    border-top: 16px solid transparent;
+    top: -32px;
+    position: relative;
+    display: inline-block;
+    content: " ";
+    float: right;
+    right: -11px
+}
+
+.ctAccordion.skin-pointer > li.closed > a {
+    -webkit-transition: all 0s ease-out;
+    -moz-transition: all 0s ease-out;
+    -o-transition: all 0s ease-out;
+    transition: all 0s ease-out
+}
+
+.ctAccordion.skin-pointer > li > ul {
+    list-style: none;
+    padding: 0 0 5px 15px
+}
+
+.ctAccordion.skin-pointer > li > ul > li {
+    margin: 3px 0
+}
+
+.ctAccordion.skin-pointer > li > ul > li > a, .ctAccordion.skin-pointer > li > ul > li > span {
+    padding-left: 28px;
+    color: #555;
+    font-weight: 400;
+    font-size: 14px
+}
+
+.ctAccordion.skin-pointer > li > ul > li > a:hover, .ctAccordion.skin-pointer > li > ul > li > span:hover {
+    color: #000
+}
+
+.ctAccordion.skin-pointer > li > ul > li.open > a {
+    color: #000
+}
+
+.ctAccordion.skin-pointer > li > ul > li > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 5px
+}
+
+.ctAccordion.skin-pointer > li > ul > li > ul > li {
+    padding: 0 0 0 5px
+}
+
+.ctAccordion.skin-pointer > li > ul > li > ul > li > a, .ctAccordion.skin-pointer > li > ul > li > ul > li > span {
+    padding-left: 30px;
+    color: #555;
+    font-size: 13px;
+    font-weight: 200
+}
+
+.ctAccordion.skin-pointer > li > ul > li > ul > li > a:hover, .ctAccordion.skin-pointer > li > ul > li > ul > li > span:hover {
+    color: #000
+}
+
+.ctAccordion.skin-pointer > li > ul > li > ul > li > p {
+    padding: 10px 20px 15px 20px;
+    font-size: 12px
+}
+
+.ctAccordion.skin-classic {
+    list-style: none;
+    -webkit-padding-start: 0 !important;
+    padding: 0;
+    margin: 0
+}
+
+.ctAccordion.skin-classic ul {
+    list-style: none;
+    overflow: hidden;
+    line-height: 0;
+    -webkit-padding-start: 0 !important
+}
+
+.ctAccordion.skin-classic a, .ctAccordion.skin-classic span {
+    padding: 2px 20px 2px 0;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    line-height: 14px;
+    font-size: 14px;
+    min-width: 50px
+}
+
+.ctAccordion.skin-classic span {
+    color: rgba(255, 255, 255, .6) !important
+}
+
+.ctAccordion.skin-classic p {
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 20px;
+    padding: 0 5px 10px 20px;
+    margin-bottom: 0;
+    margin-top: 0
+}
+
+.ctAccordion.skin-classic > li {
+    width: 100%
+}
+
+.ctAccordion.skin-classic > li ul {
+    padding: 0 15px 10px
+}
+
+.ctAccordion.skin-classic > li > span, .ctAccordion.skin-classic > li > a {
+    padding-left: 0 !important;
+    padding-right: 0 !important
+}
+
+.ctAccordion.skin-classic > li span, .ctAccordion.skin-classic > li a {
+    padding: 6px 10px;
+    background: #353535;
+    background: linear-gradient(bottom, #353535 0, #575757 100%);
+    background: -moz-linear-gradient(bottom, #353535 0, #575757 100%);
+    background: -o-linear-gradient(bottom, #353535 0, #575757 100%);
+    background: -webkit-linear-gradient(bottom, #353535 0, #575757 100%);
+    background: -ms-linear-gradient(bottom, #353535 0, #575757 100%);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #353535), color-stop(1, #575757));
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    width: 100%;
+    color: #e5e5e5;
+    margin: 5px 0 0 0
+}
+
+.ctAccordion.skin-classic > li span .uberHelper, .ctAccordion.skin-classic > li a .uberHelper {
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.ctAccordion.skin-classic > li > a:hover {
+    color: #fff;
+    background: #404040;
+    background: linear-gradient(bottom, #404040 0, #616161 100%);
+    background: -moz-linear-gradient(bottom, #404040 0, #616161 100%);
+    background: -o-linear-gradient(bottom, #404040 0, #616161 100%);
+    background: -webkit-linear-gradient(bottom, #404040 0, #616161 100%);
+    background: -ms-linear-gradient(bottom, #404040 0, #616161 100%);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #404040), color-stop(1, #616161))
+}
+
+.ctAccordion.skin-classic > li > .searchMatch {
+    background: #8b8855;
+    background: linear-gradient(bottom, #8b8855 0, #e9d925 100%);
+    background: -moz-linear-gradient(bottom, #8b8855 0, #e9d925 100%);
+    background: -o-linear-gradient(bottom, #8b8855 0, #e9d925 100%);
+    background: -webkit-linear-gradient(bottom, #8b8855 0, #e9d925 100%);
+    background: -ms-linear-gradient(bottom, #8b8855 0, #e9d925 100%);
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #8b8855), color-stop(1, #e9d925))
+}
+
+.ctAccordion.skin-classic > li > ul {
+    list-style: none;
+    margin: 0 5px;
+    padding: 7px 15px 10px;
+    background: #979797;
+    border-radius-bottom: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px
+}
+
+.ctAccordion.skin-classic > li > ul > li > a, .ctAccordion.skin-classic > li > ul > li > span {
+    background: #979797;
+    color: #353535;
+    font-size: 14px
+}
+
+.ctAccordion.skin-classic > li > ul > li > a:hover, .ctAccordion.skin-classic > li > ul > li > span:hover {
+    color: #fff
+}
+
+.ctAccordion.skin-classic > li > ul > li > .searchMatch {
+    color: #e9e229;
+    font-size: 15px
+}
+
+.ctAccordion.skin-classic > li > ul > li > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 25px
+}
+
+.ctAccordion.skin-classic > li > ul > li > ul > li > a, .ctAccordion.skin-classic > li > ul > li > ul > li > span {
+    padding: 0 20px;
+    background: #979797;
+    color: #ececec;
+    font-size: 13px
+}
+
+.ctAccordion.skin-classic > li > ul > li > ul > li > a:hover, .ctAccordion.skin-classic > li > ul > li > ul > li > span:hover {
+    color: #fff
+}
+
+.ctAccordion.skin-classic > li > ul > li > ul > li .searchMatch {
+    color: #fff600
+}
+
+@media screen and (max-width: 768px) {
+    .oldSkins .ct-u-header2 {
+        padding-top: 0
+    }
+
+    ul[id^=accordion] {
+        padding-bottom: 5% !important
+    }
+
+    ul[id^=accordion] .accordion:after {
+        float: left !important;
+        margin-left: 0 !important
+    }
+
+    ul[id^=accordion] li a:before {
+        width: 0 !important;
+        padding-right: 20px
+    }
+
+    #accordion4 li a:before {
+        width: 100% !important;
+        float: right !important;
+        padding-right: 20 pxight20 !important
+    }
+}
+
+@media (max-width: 768px) {
+    .oldSkins .row {
+        margin: 0 !important
+    }
+
+    .oldSkins .row .col-md-3 {
+        padding-top: 0 !important
+    }
+
+    .oldSkins .row .col-md-12 {
+        padding-top: 0 !important
+    }
+
+    .oldSkins .row .col-md-12 ul {
+        padding-bottom: 0 !important
+    }
+
+    .skin-flat a:after, .skin-glossy a:after, .skin-sport a:after {
+        right: 50px !important
+    }
+
+    .skin-flat a i {
+        float: left;
+        padding-right: 0 !important;
+        padding-left: 20px
+    }
+
+    .skin-flat > li > a .helper {
+        left: 0 !important;
+        top: 32.4px !important
+    }
+
+    .skin-flat > li > ul > li > a .helper {
+        left: 50px;
+        top: 15.4px
+    }
+
+    .skin-lines a, .skin-simple a {
+        padding-left: 0 !important
+    }
+
+    .skin-lines a:before, .skin-simple a:before {
+        margin-left: 18px;
+        float: left
+    }
+
+    .skin-lines > li > ul > li > a, .skin-simple > li > ul > li > a {
+        padding-left: 0 !important
+    }
+
+    .skin-lines > li > ul > li > ul > li > a, .skin-simple > li > ul > li > ul > li > a {
+        padding-right: 18px !important
+    }
+
+    .skin-slick a > .helper {
+        margin-left: 30px
+    }
+
+    .skin-paper > li > a.noContent > .uberHelper {
+        padding-right: 52px
+    }
+
+    .skin-paper > li > a > .uberHelper {
+        padding-right: 52px
+    }
+
+    .skin-paper > li > ul > li > a > .uberHelper {
+        padding-right: 32px
+    }
+
+    .skin-paper > li > ul > li > ul > li > a > .uberHelper {
+        padding-right: 36px
+    }
+
+    .skin-flat > li > a > .uberHelper {
+        padding-right: 35px
+    }
+
+    .skin-flat > li > ul > li > ul > li > a > .uberHelper {
+        padding-right: 8px
+    }
+
+    .skin-color > li a {
+        padding-left: 25px !important;
+        padding-right: 0 !important
+    }
+
+    .skin-color > li a:after {
+        float: right
+    }
+
+    .skin-minimal > li a {
+        padding-right: 25px !important
+    }
+}
+
+@media screen and (max-width: 309px) {
+    .skin-flat > li > a .helper {
+        left: 20px !important;
+        top: 14.4px !important
+    }
+}

@@ -1,0 +1,238 @@
+#accordionWrapper {
+	margin:0;
+	padding:0;
+	font:14px Verdana,Arial;
+	width: auto;
+}
+
+* {margin:0; padding:0; font:17px Verdana,Arial}
+code {font-family:"Courier New",Courier}
+
+#options {
+	width:autopx;
+	text-align:left;
+	color:#9ac1c9;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-bottom: 15px;
+	margin-left: 0px;
+}
+
+#options a {text-decoration:none; color:#04B7DB; font-weight:bold}
+
+#options a:hover {
+color:#f00;
+text-decoration: underline;
+ }
+
+#acc {width:auto; list-style:none; color:#033; margin:0 auto 40px}
+#acc h3 {width:auto; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#acc h3:hover {background:url(images/header_over.gif)}
+#acc .acc-section {overflow:hidden; background:#fff}
+#acc .acc-content {
+	width:auto;
+	padding:14px;
+	border:1px solid #9ac1c9;
+	border-top:none;
+	background:#fff
+}
+
+#nested {width:auto; list-style:none; color:#033; margin-bottom:15px}
+#nested h3 {width:auto; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#nested h3:hover {background:url(images/header_over.gif)}
+#nested .acc-section {overflow:hidden; background:#fff}
+#nested .acc-content {width:auto; padding:15px; border:1px solid #9ac1c9; border-top:none; background:#fff}
+#nested .acc-selected {background:url(images/header_over.gif)}
+
+/* this is a copy and paste of the one above to create another nested accordion - I added 2's in all sorts of areas just to get the second nested accordion functioning - didn't work :)  I even added another javascript file named script2.js */
+
+#acc2 {width:auto; list-style:none; color:#033; margin:0 auto 40px}
+#acc2 h3 {width:auto; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#acc2 h3:hover {background:url(images/header_over.gif)}
+#acc2 .acc2-section2 {overflow:hidden; background:#fff}
+#acc2 .acc2-content2 {
+	width:auto;
+	padding:14px;
+	border:1px solid #9ac1c9;
+	border-top:none;
+	background:#fff
+}
+
+#nested2 {width:auto; list-style:none; color:#033; margin-bottom:15px}
+#nested2 h3 {width:auto; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#nested2 h3:hover2 {background:url(images/header_over.gif)}
+#nested2 .acc2-section2 {overflow:hidden; background:#fff}
+#nested2 .acc2-content2 {width:auto; padding:15px; border:1px solid #9ac1c9; border-top:none; background:#fff}
+#nested2 .acc2-selected2 {background:url(images/header_over.gif)}
+
+
+
+/* this is a copy and paste of the one above to create another nested accordion - I added 2's in all sorts of areas just to get the second nested accordion functioning - didn't work :)  I even added another javascript file named script2.js */
+
+#acc3 {width:auto; list-style:none; color:#033; margin:0 auto 40px}
+#acc3 h3 {width:auto; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#acc3 h3:hover {background:url(images/header_over.gif)}
+#acc3 .acc3-section3 {overflow:hidden; background:#fff}
+#acc3 .acc3-content3 {
+	width:auto;
+	padding:14px;
+	border:1px solid #9ac1c9;
+	border-top:none;
+	background:#fff
+}
+
+#nested3 {width:auto; list-style:none; color:#033; margin-bottom:15px}
+#nested3 h3 {width:auto; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#nested3 h3:hover3 {background:url(images/header_over.gif)}
+#nested3 .acc3-section3 {overflow:hidden; background:#fff}
+#nested3 .acc3-content3 {width:auto; padding:15px; border:1px solid #9ac1c9; border-top:none; background:#fff}
+#nested3 .acc3-selected3 {background:url(images/header_over.gif)}
+
+/* this is a copy and paste of the one above to create another nested accordion - I added 2's in all sorts of areas just to get the second nested accordion functioning - didn't work :)  I even added another javascript file named script2.js */
+
+#acc4 {width:auto; list-style:none; color:#033; margin:0 auto 40px}
+#acc4 h3 {width:auto; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#acc4 h3:hover {background:url(images/header_over.gif)}
+#acc4 .acc4-section4 {overflow:hidden; background:#fff}
+#acc4 .acc4-content4 {
+	width:auto;
+	padding:14px;
+	border:1px solid #9ac1c9;
+	border-top:none;
+	background:#fff
+}
+
+#nested4 {width:auto; list-style:none; color:#033; margin-bottom:15px}
+#nested4 h3 {width:auto; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#nested4 h3:hover4 {background:url(images/header_over.gif)}
+#nested4 .acc4-section4 {overflow:hidden; background:#fff}
+#nested4 .acc4-content4 {width:auto; padding:15px; border:1px solid #9ac1c9; border-top:none; background:#fff}
+#nested4 .acc4-selected4 {background:url(images/header_over.gif)}
+
+
+/* this is a copy and paste of the one above to create another nested accordion - I added 2's in all sorts of areas just to get the second nested accordion functioning - didn't work :)  I even added another javascript file named script2.js */
+
+#acc5 {width:auto; list-style:none; color:#033; margin:0 auto 40px}
+#acc5 h3 {width:auto; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#acc5 h3:hover {background:url(images/header_over.gif)}
+#acc5 .acc5-section5 {overflow:hidden; background:#fff}
+#acc5 .acc5-content5 {
+	width:auto;
+	padding:14px;
+	border:1px solid #9ac1c9;
+	border-top:none;
+	background:#fff
+}
+
+#nested5 {width:auto; list-style:none; color:#033; margin-bottom:15px}
+#nested5 h3 {width:auto; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#nested5 h3:hover5 {background:url(images/header_over.gif)}
+#nested5 .acc5-section5 {overflow:hidden; background:#fff}
+#nested5 .acc5-content5 {width:auto; padding:15px; border:1px solid #9ac1c9; border-top:none; background:#fff}
+#nested5 .acc5-selected5 {background:url(images/header_over.gif)}
+
+/* this is a copy and paste of the one above to create another nested accordion - I added 2's in all sorts of areas just to get the second nested accordion functioning - didn't work :)  I even added another javascript file named script2.js */
+
+#acc6 {width:auto; list-style:none; color:#033; margin:0 auto 40px}
+#acc6 h3 {width:auto; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#acc6 h3:hover {background:url(images/header_over.gif)}
+#acc6 .acc6-section6 {overflow:hidden; background:#fff}
+#acc6 .acc6-content6 {
+	width:auto;
+	padding:14px;
+	border:1px solid #9ac1c9;
+	border-top:none;
+	background:#fff
+}
+
+#nested6 {width:auto; list-style:none; color:#033; margin-bottom:15px}
+#nested6 h3 {width:auto; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#nested6 h3:hover6 {background:url(images/header_over.gif)}
+#nested6 .acc6-section6 {overflow:hidden; background:#fff}
+#nested6 .acc6-content6 {width:auto; padding:15px; border:1px solid #9ac1c9; border-top:none; background:#fff}
+#nested6 .acc6-selected6 {background:url(images/header_over.gif)}
+
+/* this is a copy and paste of the one above to create another nested accordion - I added 2's in all sorts of areas just to get the second nested accordion functioning - didn't work :)  I even added another javascript file named script2.js */
+
+#acc7 {width:auto; list-style:none; color:#033; margin:0 auto 40px}
+#acc7 h3 {width:auto; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#acc7 h3:hover {background:url(images/header_over.gif)}
+#acc7 .acc7-section7 {overflow:hidden; background:#fff}
+#acc7 .acc7-content7 {
+	width:auto;
+	padding:14px;
+	border:1px solid #9ac1c9;
+	border-top:none;
+	background:#fff
+}
+
+#nested7 {width:auto; list-style:none; color:#033; margin-bottom:15px}
+#nested7 h3 {width:auto; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#nested7 h3:hover7 {background:url(images/header_over.gif)}
+#nested7 .acc7-section7 {overflow:hidden; background:#fff}
+#nested7 .acc7-content7 {width:auto; padding:15px; border:1px solid #9ac1c9; border-top:none; background:#fff}
+#nested7 .acc7-selected7 {background:url(images/header_over.gif)}
+
+/* this is a copy and paste of the one above to create another nested accordion - I added 2's in all sorts of areas just to get the second nested accordion functioning - didn't work :)  I even added another javascript file named script2.js */
+
+#acc8 {width:auto; list-style:none; color:#033; margin:0 auto 40px}
+#acc8 h3 {width:auto; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#acc8 h3:hover {background:url(images/header_over.gif)}
+#acc8 .acc8-section8 {overflow:hidden; background:#fff}
+#acc8 .acc8-content8 {
+	width:auto;
+	padding:14px;
+	border:1px solid #9ac1c9;
+	border-top:none;
+	background:#fff
+}
+
+#nested8 {width:auto; list-style:none; color:#033; margin-bottom:15px}
+#nested8 h3 {width:auto; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#nested8 h3:hover8 {background:url(images/header_over.gif)}
+#nested8 .acc8-section8 {overflow:hidden; background:#fff}
+#nested8 .acc8-content8 {width:auto; padding:15px; border:1px solid #9ac1c9; border-top:none; background:#fff}
+#nested8 .acc8-selected8 {background:url(images/header_over.gif)}
+
+/* this is a copy and paste of the one above to create another nested accordion - I added 2's in all sorts of areas just to get the second nested accordion functioning - didn't work :)  I even added another javascript file named script2.js */
+
+#acc9 {width:auto; list-style:none; color:#033; margin:0 auto 40px}
+#acc9 h3 {width:auto; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#acc9 h3:hover {background:url(images/header_over.gif)}
+#acc9 .acc9-section9 {overflow:hidden; background:#fff}
+#acc9 .acc9-content9 {
+	width:auto;
+	padding:14px;
+	border:1px solid #9ac1c9;
+	border-top:none;
+	background:#fff
+}
+
+#nested9 {width:auto; list-style:none; color:#033; margin-bottom:15px}
+#nested9 h3 {width:auto; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#nested9 h3:hover9 {background:url(images/header_over.gif)}
+#nested9 .acc9-section9 {overflow:hidden; background:#fff}
+#nested9 .acc9-content9 {width:auto; padding:15px; border:1px solid #9ac1c9; border-top:none; background:#fff}
+#nested9 .acc9-selected9 {background:url(images/header_over.gif)}
+
+
+/* this is a copy and paste of the one above to create another nested accordion - I added 2's in all sorts of areas just to get the second nested accordion functioning - didn't work :)  I even added another javascript file named script2.js */
+
+#acc10 {width:auto; list-style:none; color:#033; margin:0 auto 40px}
+#acc10 h3 {width:auto; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#acc10 h3:hover {background:url(images/header_over.gif)}
+#acc10 .acc10-section10 {overflow:hidden; background:#fff}
+#acc10 .acc10-content10 {
+	width:auto;
+	padding:14px;
+	border:1px solid #9ac1c9;
+	border-top:none;
+	background:#fff
+}
+
+#nested10 {width:auto; list-style:none; color:#033; margin-bottom:15px}
+#nested10 h3 {width:auto; border:1px solid #9ac1c9; padding:6px 6px 8px; font-weight:bold; margin-top:5px; cursor:pointer; background:url(images/header.gif)}
+#nested10 h3:hover10 {background:url(images/header_over.gif)}
+#nested10 .acc10-section10 {overflow:hidden; background:#fff}
+#nested10 .acc10-content10 {width:auto; padding:15px; border:1px solid #9ac1c9; border-top:none; background:#fff}
+#nested10 .acc10-selected10 {background:url(images/header_over.gif)}

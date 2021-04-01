@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+#faq_search_box input {
+  padding: 2px;
+}
+
+#faq_btn_next {
+  display: none;
+  padding: 2px;
+  font-weight: bold;
+  cursor: pointer
+}
+
+.faq_highlight {
+  font-weight: bold;
+  font-style: italic;
+  background: yellow;
+  color: #000
+}
+
+h3 .faq_highlight {
+  font-weight: bold;
+  font-style: italic;
+}
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
